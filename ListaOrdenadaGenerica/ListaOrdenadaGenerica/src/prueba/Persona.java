@@ -86,12 +86,10 @@ public class Persona implements Comparable<Persona>{
 	}
 
 
-	@Override
-	public int compareTo(Persona arg0) {
-		// TODO Auto-generated method stub
-		return apellido.compareTo(arg0.apellido);
+@Override 
+	public int compareTo(Persona o) { 
+		return Integer.compare(edad, o.edad); 
 	}
-
 	
 	
 
