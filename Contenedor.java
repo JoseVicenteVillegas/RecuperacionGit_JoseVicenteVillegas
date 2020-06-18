@@ -5,12 +5,15 @@ public class Contenedor implements Comparable<Contenedor>{
 	private String mercancia;
 	private float peso;
 	private String compañia;
+	private String contenedor;
+
 	
-	public Contenedor(String origen, String mercancia, float peso, String compañia) {
+	public Contenedor(String origen, String mercancia, float peso, String compañia,String contenedor) {
 		this.origen = origen;
 		this.mercancia = mercancia;
 		this.peso = peso;
 		this.compañia = compañia;
+		this.contenedor = contenedor;
 	}
 
 	public String getOrigen() {

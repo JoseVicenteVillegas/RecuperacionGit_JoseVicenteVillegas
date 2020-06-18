@@ -88,7 +88,7 @@ public class Persona implements Comparable<Persona>{
 
 @Override 
 	public int compareTo(Persona o) { 
-		return Integer.compare(edad, o.edad); 
+		return Integer.compare(edad, o.edad,que pasa); 
 	}
 	
 	
